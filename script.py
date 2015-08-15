@@ -24,3 +24,6 @@ def backup():
             conf.upload(current_file,
                         "/PATH/{0}".format(filename))
             os.remove(current_file)
+
+if __name__ == "__main__":
+    manager.run()
